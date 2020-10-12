@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+    background: linear-gradient(to right, hsla(216, 34%, 78%, 0.658), hsla(219, 72%, 69%, 0.651)), url(images/808882.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-header{
+    padding: 0px 0px 0px 15px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-texto-principal{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contenedor-texto-secundario{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contenedor-texto-tres{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.logo-1{
+    height: 200px;
+    width: 200px;
+    padding: 0px 0px 30px 15px;
+}
+
+.logo-2{
+    height: 200px;
+    width: 200px;
+    padding: 0px 0px 30px 15px;
+}
+
+.contenedor-direcciones{
+    padding: 0px 0px 30px 15px;
+}
+
+.contenedor-table{
+    margin: 10px auto;
+    width: 98%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+    background-color: rgba(27, 57, 155, 0.849);
+    color: white;
+}
