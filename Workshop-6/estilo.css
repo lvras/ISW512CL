@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contenedor-principal {
+    height: 630px;
+    width: 100%;
+    margin: 0px auto;
+    background: fff;
+}
+
+.texto-principal {
+    height: 80px;
+    width: 460.8px;
+    float: left;
+    margin-top: 220px;
+    margin-left: 200px;
+    font-size: 26px;
+}
+
+.boton1 {
+    height: 38px;
+    width: 154.17px;
+    text-align: center;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 200px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 17, 255, 0.589);
+    background-color: rgba(66, 93, 214, 0.904);
+}
+
+.estilo-boton {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 38px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.iphones {
+    width: 40%;
+    float: right;
+    margin-top: 48px;
+    margin-right: 5px;
+}
+
+.iphone1 {
+    position: absolute;
+    height: 615px;
+    width: 300.09px;
+    margin-top: 41px;
+}
+
+.iphone2 {
+    position: static;
+    height: 570px;
+    width: 278.14px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.contenedor-dos {
+    color: #fff;
+    background-image: url(images/Fondo.jpg);
+    background-size: cover;
+    height: 559px;
+    width: 100%;
+}
+
+.filas{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 180px;
+    height: 169px;
+    width: 960px;
+    text-align: center;
+}
+
+.fila1{
+    position: absolute;
+    height: 169px;
+    width: 296.39;
+}
+
+.fila2{
+    position: absolute;
+    margin-left: 335px;
+    height: 169px;
+    width: 296.39;
+}
+
+.fila3{
+    position: absolute;
+    margin-left: 665px;
+    height: 169px;
+    width: 296.39;
+}
+
+.porcentaje{
+    font-size: 35px;
+    height: 52;
+    width: 294.39px;
+}
+
+.cabeza{
+    font-size: 26px;
+    height: 36;
+    width: 294.39px;
+}
+
+.descripcion{
+    font-size: 18px;
+    height: 48;
+    width: 294.39px;
+}
+
+.contenedor-tres {
+    background-size: cover;
+    height: 557px;
+    width: 100%;
+}
+
+.cabeza3{
+    font-size: 38px;
+    height: 46px;
+    width: 960px;
+    text-align: center;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.descripcion3{
+    height: 48px;
+    width: 576px;
+    text-align: center;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 260px;
+}
+
+.boton2{
+    height: 38px;
+    width: 201.05px;
+    margin-top: 320px;
+    margin-left: 580px;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 17, 255, 0.589);
+    background-color: rgba(66, 93, 214, 0.904);
+}
+
+.contenedor-cuatro {
+    color: #fff;
+    background-image: url(images/Fondo.jpg);
+    background-size: cover;
+    height: 802.19px;
+    width: 100%;
+}
+
+.cabeza4 {
+    font-size: 32px;
+    height: 46;
+    width: 960px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.descripcion4 {
+    font-size: 15px;
+    height: 42px;
+    width: 558.31px;
+    margin-top: 250px;
+    margin-left: 420px;
+    position: absolute;
+    text-align: center;
+}
+
+.image1 {
+    position: static;
+    height: 256.19px;
+    width: 460.8px;
+    margin-left: 200px;
+    margin-top: 340px;
+}
+
+.image2 {
+    position: static;
+    height: 256.19px;
+    width: 460.8px;
+    margin-left: 30px;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid rgba(39, 23, 180, 0);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
